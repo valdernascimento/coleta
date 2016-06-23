@@ -111,12 +111,8 @@ public class PrincipalActivity extends AppCompatActivity
             //break;
           } else  if (id == R.id.nav_sair) {
            onSairAplicativo();
-        } else if (id == R.id.nav_share) {
-            getSupportActionBar().setLogo(R.mipmap.share);
-            getSupportActionBar().setTitle(R.string.lbl_share);
-            Intent it_menuPrincipal = new Intent(this, activity_menuPrincipal.class);
-            startActivity(it_menuPrincipal);
-        }  if (id == R.id.nav_send) {
+        } else
+        if (id == R.id.nav_send) {
             getSupportActionBar().setLogo(R.mipmap.send);
             getSupportActionBar().setTitle(R.string.lbl_send);
         }
