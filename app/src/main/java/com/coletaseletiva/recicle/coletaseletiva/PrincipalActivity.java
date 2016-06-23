@@ -22,7 +22,7 @@ import com.coletaseletiva.recicle.coletaseletiva.R;
 public class PrincipalActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
+//TODO: TESTANDO O COMIT
    public void startInicialCadastro(View view) {
       getSupportActionBar().setTitle(R.string.lbl_cadastre);
       getFragmentManager().beginTransaction().replace(R.id.main_frame, fragment_cadastro.newInstance()).addToBackStack("menu").commit();
