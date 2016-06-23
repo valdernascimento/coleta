@@ -37,7 +37,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:id="@+id/lnl_nome">
+                    android:id="@+id/lnl_nome"
+                    android:visibility="visible">
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
@@ -60,7 +61,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:id="@+id/lnl_cep" >
+                    android:id="@+id/lnl_cep"
+                    android:visibility="visible">
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
@@ -84,7 +86,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:id="@+id/lnl_endereco" >
+                    android:id="@+id/lnl_endereco"
+                    android:visibility="visible">
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
@@ -108,7 +111,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lbl_numeroEnd"
-                    android:focusableInTouchMode="false">
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -131,7 +135,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lbl_bairro"
-                    android:focusableInTouchMode="false" >
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,7 +165,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lnl_celular"
-                    android:focusableInTouchMode="false" >
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -183,7 +189,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lnl_email"
-                    android:focusableInTouchMode="false" >
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
@@ -208,7 +215,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lnl_senha"
-                    android:focusableInTouchMode="false" >
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
 
                     <android.support.design.widget.TextInputLayout
                         android:layout_width="match_parent"
@@ -232,7 +240,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
                     android:id="@+id/lnl_categoria"
-                    android:focusableInTouchMode="false" >
+                    android:focusableInTouchMode="false"
+                    android:visibility="visible">
 
                     <TextView
                         android:layout_width="wrap_content"
