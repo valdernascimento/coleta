@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_tipo_ug">
+        <item>Selecione</item>
+        <item>Residência</item>
+        <item>Condomínio</item>
+        <item>Comércio</item>
+        <item>Industria</item>
+        <item>Hospital</item>
+        <item>Orgão Público</item>
+        <item>Escola</item>
+    </string-array>
+</resources>

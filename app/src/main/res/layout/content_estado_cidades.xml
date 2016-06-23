@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_estado_cidades"
+    android:background="@color/clwhite"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/clColorSplash"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/lbl_estado"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/clwhite"
+                android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spEstado"
+                android:layout_weight="20"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:textStyle="bold"
+                android:textColor="@color/clGreen"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/clColorSplash"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp" />
+
+            <include layout="@layout/line_separador"/>
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/clColorSplash"
+               android:layout_gravity="center_horizontal"
+               android:orientation="vertical">
+               <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                  android:text="@string/lbl_cidade"
+                  android:id="@+id/textView5"
+                  android:textAlignment="center"
+                  android:textStyle="bold"
+                  android:textColor="@color/clwhite"
+                  android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spCidade"
+                android:layout_weight="20"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/clColorSplash"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp" />
+            <include layout="@layout/line_separador"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/clColorSplash"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Selecione o tipo da unidade (U.G)"
+                    android:id="@+id/textViewUnd"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/clwhite"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spTipoUnidade"
+                android:layout_weight="20"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:textStyle="bold"
+                android:textColor="@color/clGreen"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/clColorSplash"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_btn_avancar"
+                android:id="@+id/btnAvancar"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/clGreen"
+                android:background="@color/clYellow"
+                android:onClick="startCadastro"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

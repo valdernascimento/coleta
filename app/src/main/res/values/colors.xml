@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009e54</color>
+    <color name="colorPrimaryDark">#32CD32</color>
+    <color name="colorAccent">#81c784</color> <!--#FF4081-->
+    <color name="clwhite">#FFFFFF</color>
+    <color name="clBlack">#000000</color>
+    <color name="clYellow">#FFF4</color>
+    <color name="clBackground">#FFFFFF</color>
+    <color name="clBorder">#81c784</color>
+    <color name="colorActionBar">#32CD32</color> <!--#81c784-->
+    <color name="colorLinhaSeparador">#81c784</color>
+    <color name="clTitulo">#009e54</color>
+    <color name="clGreen">#009e54</color>
+    <color name="clColorSplash">#32CD32</color>
+    <color name="clColorDescMSeparar">#32CD32</color>
+
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cidade_array">
+        <item>Selecione</item>
+        <item>Acorizal</item>
+        <item>Agua Boa</item>
+        <item>Agua Fria</item>
+        <item>Aguacu</item>
+        <item>Aguapei</item>
+        <item>Aguas Claras</item>
+        <item>Ainhumas</item>
+        <item>Alcantilado</item>
+        <item>Alta Floresta</item>
+        <item>Alto Araguaia</item>
+        <item>Alto Boa Vista</item>
+        <item>Alto Coite</item>
+        <item>Alto Garcas</item>
+        <item>Alto Juruena</item>
+        <item>Alto Paraguai</item>
+        <item>Alto Paraiso</item>
+        <item>Alto Taquari</item>
+        <item>Analandia do Norte</item>
+        <item>Apiacas</item>
+        <item>Araguaiana</item>
+        <item>Araguainha</item>
+        <item>Araputanga</item>
+        <item>Arenapolis</item>
+        <item>Aripuana</item>
+        <item>Arruda</item>
+        <item>Assari</item>
+        <item>Barao de Melgaco</item>
+        <item>Barra do Bugres</item>
+        <item>Barra do Garcas</item>
+        <item>Batovi</item>
+        <item>Baus</item>
+        <item>Bauxi</item>
+        <item>Bel Rios</item>
+        <item>Bezerro Branco</item>
+        <item>Boa Esperanca</item>
+        <item>Boa Uniao</item>
+        <item>Boa Vista</item>
+        <item>Bom Sucesso</item>
+        <item>Brasnorte</item>
+        <item>Buriti</item>
+        <item>Caceres</item>
+        <item>Caite</item>
+        <item>Campinapolis</item>
+        <item>Campo Novo do Parecis</item>
+        <item>Campo Verde</item>
+        <item>Campos de Julio</item>
+        <item>Campos Novos</item>
+        <item>Canabrava do Norte</item>
+        <item>Canarana</item>
+        <item>Cangas</item>
+        <item>Capao Grande</item>
+        <item>Capao Verde</item>
+        <item>Caramujo</item>
+        <item>Caravagio</item>
+        <item>Carlinda</item>
+        <item>Cassununga</item>
+        <item>Castanheira</item>
+        <item>Catuai</item>
+        <item>Chapada dos Guimaraes</item>
+        <item>Cidade Morena</item>
+        <item>Claudia</item>
+        <item>Cocalinho</item>
+        <item>Colider</item>
+        <item>Colorado do Norte</item>
+        <item>Comodoro</item>
+        <item>Confresa</item>
+        <item>Coronel Ponce</item>
+        <item>Cotrel</item>
+        <item>Cotriguacu</item>
+        <item>Coxipo Acu</item>
+        <item>Coxipo da Ponte</item>
+        <item>Coxipo do Ouro</item>
+        <item>Cristinopolis</item>
+        <item>Cristo Rei</item>
+        <item>Cuiaba</item>
+        <item>Curvelandia</item>
+        <item>Del Rios</item>
+        <item>Denise</item>
+        <item>Diamantino</item>
+        <item>Dom Aquino</item>
+        <item>Engenho</item>
+        <item>Engenho Velho</item>
+        <item>Entre Rios</item>
+        <item>Estrela do Leste</item>
+        <item>Faval</item>
+        <item>Fazenda de Cima</item>
+        <item>Feliz Natal</item>
+        <item>Figueiropolis D Oeste</item>
+        <item>Filadelfia</item>
+        <item>Flor da Serra</item>
+        <item>Fontanilhas</item>
+        <item>Gaucha do Norte</item>
+        <item>General Carneiro</item>
+        <item>Gloria Doeste</item>
+        <item>Guaranta do Norte</item>
+        <item>Guarita</item>
+        <item>Guiratinga</item>
+        <item>Horizonte do Oeste</item>
+        <item>Indianapolis</item>
+        <item>Indiavai</item>
+        <item>Irenopolis</item>
+        <item>Itamarati Norte</item>
+        <item>Itauba</item>
+        <item>Itiquira</item>
+        <item>Jaciara</item>
+        <item>Jangada</item>
+        <item>Jarudore</item>
+        <item>Jatoba</item>
+        <item>Jauru</item>
+        <item>Joselandia</item>
+        <item>Juara</item>
+        <item>Juina</item>
+        <item>Juruena</item>
+        <item>Juscimeira</item>
+        <item>Lambari Doeste</item>
+        <item>Lavouras</item>
+        <item>Lucas do Rio Verde</item>
+        <item>Lucialva</item>
+        <item>Luciara</item>
+        <item>Machado</item>
+        <item>Marcelandia</item>
+        <item>Marzagao</item>
+        <item>Mata Dentro</item>
+        <item>Matupa</item>
+        <item>Mimoso</item>
+        <item>Mirassol Doeste</item>
+        <item>Nobres</item>
+        <item>Nonoai do Norte</item>
+        <item>Nortelandia</item>
+        <item>Nossa Senhora da Guia</item>
+        <item>Nossa Senhora do Livramento</item>
+        <item>Nova Alvorada</item>
+        <item>Nova Bandeirantes</item>
+        <item>Nova Brasilandia</item>
+        <item>Nova Brasilia</item>
+        <item>Nova Canaa do Norte</item>
+        <item>Nova Catanduva</item>
+        <item>Nova Galileia</item>
+        <item>Nova Guarita</item>
+        <item>Nova Lacerda</item>
+        <item>Nova Marilandia</item>
+        <item>Nova Maringa</item>
+        <item>Nova Monte Verde</item>
+        <item>Nova Mutum</item>
+        <item>Nova Olimpia</item>
+        <item>Nova Ubirata</item>
+        <item>Nova Xavantina</item>
+        <item>Novo Diamantino</item>
+        <item>Novo Eldorado</item>
+        <item>Novo Horizonte do Norte</item>
+        <item>Novo Mundo</item>
+        <item>Novo Parana</item>
+        <item>Novo Sao Joaquim</item>
+        <item>Padronal</item>
+        <item>Pai Andre</item>
+        <item>Paraiso do Leste</item>
+        <item>Paranaita</item>
+        <item>Paranatinga</item>
+        <item>Passagem da Conceicao</item>
+        <item>Pedra Preta</item>
+        <item>Peixoto de Azevedo</item>
+        <item>Pirizal</item>
+        <item>Placa de Santo Antonio</item>
+        <item>Planalto da Serra</item>
+        <item>Pocone</item>
+        <item>Pombas</item>
+        <item>Pontal do Araguaia</item>
+        <item>Ponte Branca</item>
+        <item>Ponte de Pedra</item>
+        <item>Pontes E Lacerda</item>
+        <item>Pontinopolis</item>
+        <item>Porto Alegre do Norte</item>
+        <item>Porto dos Gauchos</item>
+        <item>Porto Esperidiao</item>
+        <item>Porto Estrela</item>
+        <item>Poxoreo</item>
+        <item>Praia Rica</item>
+        <item>Primavera</item>
+        <item>Primavera do Leste</item>
+        <item>Progresso</item>
+        <item>Querencia</item>
+        <item>Rancharia</item>
+        <item>Reserva do Cabacal</item>
+        <item>Ribeirao Cascalheira</item>
+        <item>Ribeirao dos Cocais</item>
+        <item>Ribeiraozinho</item>
+        <item>Rio Branco</item>
+        <item>Rio Manso</item>
+        <item>Riolandia</item>
+        <item>Rondonopolis</item>
+        <item>Rosario Oeste</item>
+        <item>Salto do Ceu</item>
+        <item>Sangradouro</item>
+        <item>Santa Carmem</item>
+        <item>Santa Elvira</item>
+        <item>Santa Fe</item>
+        <item>Santa Rita</item>
+        <item>Santa Terezinha</item>
+        <item>Santaninha</item>
+        <item>Santo Afonso</item>
+        <item>Santo Antonio do Leverger</item>
+        <item>Santo Antonio do Rio Bonito</item>
+        <item>Sao Cristovao</item>
+        <item>Sao Domingos</item>
+        <item>Sao Felix do Araguaia</item>
+        <item>Sao Joaquim</item>
+        <item>Sao Jorge</item>
+        <item>Sao Jose</item>
+        <item>Sao Jose do Apui</item>
+        <item>Sao Jose do Planalto</item>
+        <item>Sao Jose do Povo</item>
+        <item>Sao Jose do Rio Claro</item>
+        <item>Sao Jose do Xingu</item>
+        <item>Sao Jose dos Quatro Marcos</item>
+        <item>Sao Lourenco de Fatima</item>
+        <item>Sao Pedro da Cipa</item>
+        <item>Sao Vicente</item>
+        <item>Sapezal</item>
+        <item>Selma</item>
+        <item>Serra Nova</item>
+        <item>Sinop</item>
+        <item>Sonho Azul</item>
+        <item>Sorriso</item>
+        <item>Sumidouro</item>
+        <item>Tabapora</item>
+        <item>Tangara da Serra</item>
+        <item>Tapirapua</item>
+        <item>Tapurah</item>
+        <item>Terra Nova do Norte</item>
+        <item>Terra Roxa</item>
+        <item>Tesouro</item>
+        <item>Toricueyje</item>
+        <item>Torixoreu</item>
+        <item>Tres Pontes</item>
+        <item>Uniao do Sul</item>
+        <item>Vale dos Sonhos</item>
+        <item>Vale Rico</item>
+        <item>Varginha</item>
+        <item>Varzea Grande</item>
+        <item>Vera</item>
+        <item>Vila Atlantica</item>
+        <item>Vila Bela da Santissima Trindade</item>
+        <item>Vila Bueno</item>
+        <item>Vila Mutum</item>
+        <item>Vila Operaria</item>
+        <item>Vila Paulista</item>
+        <item>Vila Progresso</item>
+        <item>Vila Rica</item>
+    </string-array>
+
+</resources>

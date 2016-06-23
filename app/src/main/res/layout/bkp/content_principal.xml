@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal|bottom" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal|bottom" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONHEÇA O NOSSO PROJETO"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal|bottom" />
+        <Button
+            android:id="@+id/btnplay"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@color/clYellow"
+            android:textStyle="bold"
+            android:text="PLAY"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#045203"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="____________________"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEJA UM COLABORADOR"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal|bottom"/>
+        <Button
+            android:id="@+id/btnSeja"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@color/clYellow"
+            android:textStyle="bold"
+            android:text="CADASTRA-SE"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#045203"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="____________________"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JÁ SOU UM COLABORADOR"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal|bottom"/>
+        <Button
+            android:id="@+id/btnEntra"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@color/clYellow"
+            android:textStyle="bold"
+            android:text="ENTRAR"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#045203"/>
+    </LinearLayout>
+</ScrollView>

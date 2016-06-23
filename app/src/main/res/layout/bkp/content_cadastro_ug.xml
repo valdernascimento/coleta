@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.coletaseletiva.recicle.coletaseletiva.activity_cadastro_ug"
+    android:background="#009e54"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preencha seus Dados"
+        android:id="@+id/textView"
+        android:layout_column="0"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/nome"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:text="@string/cep"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/endereco"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:paddingTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/bairro"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:paddingTop="20dp"
+                android:layout_gravity="right" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:paddingTop="20dp"
+                android:text="@string/celular" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:text="@string/email"
+                android:paddingTop="20dp" />
+
+            <include layout="@layout/line_separador"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/lblUnidadeGeradora"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spColeta"
+                android:layout_weight="20"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown" />
+
+            <include layout="@layout/line_separador"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/AcesseLocalizacao"
+                android:id="@+id/textView2"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mapaBtn"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#0c0001"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/codigoUG"
+                android:id="@+id/textView3"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:layout_gravity="center_horizontal"
+                android:text="12365485"
+                android:textColor="#029f55"
+                android:textStyle="bold"
+                android:enabled="true"
+                android:background="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

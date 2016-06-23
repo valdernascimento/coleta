@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Coleta Seletiva</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="lbl_endereco">Endereço</string>
+    <string name="lbl_bairro">Bairro</string>
+    <string name="lbl_cep">CEP</string>
+    <string name="lbl_celular">Celular</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_acesseLocalizacao">Acesse sua Localização</string>
+
+    <string name="lbl_btn_mapa">MAPA</string>
+    <string name="lbl_btn_avancar">Avançar</string>
+
+    <string name="lbl_codigoUG">Seu Código UG</string>
+    <string name="lbl_unidadeGeradora">Sua unidade Geradora é?</string>
+
+    <string name="lbl_title_activity_cidades">Selecione o Estado e Cidade</string>
+    <string name="lbl_title_activity_cadastro_ug">activity_cadastro_ug</string>
+    <string name="lbl_title_activity_menu_principal">MenuPrincipal</string>
+
+    <string name="lbl_estado">Selecione seu Estado</string>
+    <string name="lbl_cidade">Selecione sua Cidade</string>
+    <string name="lbl_nrEndereco">Número Endereço</string>
+    <string name="lbl_senha">Informe uma senha</string>
+    <string name="lbl_publicidade">Mostrar Publicidade</string>
+    <string name="lbl_cabecalho">Preencha seus Dados</string>
+
+    <string name="lbl_btn_videoEducativo">Vídeo Educativo</string>
+    <string name="lbl_btn_materiasSeparar">Materias a Separar</string>
+    <string name="lbl_btn_comoSeparar">Como Separar Materias</string>
+    <string name="lbl_btn_tempoDegradacao">Tempo de Degradação</string>
+    <string name="lbl_btn_dataColeta">Data de Coleta seu Bairro</string>
+    <string name="lbl_btn_canaisComunicacao">Canais de Comunicação</string>
+    <string name="lbl_btn_acoesSociais">Ações Sociais</string>
+    <string name="lbl_btn_menuAplicativo">Menu Principal</string>
+    <string name="lbl_saudacao">BOM DIA</string>
+    <string name="lbl_nomeCidadao">Maria Lucia Cardoso</string>
+    <string name="lbl_cidadaoConsciente">Cidadão Consciente</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <!--TODO: MENU -->
+    <string name="lbl_home">Home</string>
+    <string name="lbl_material_separar">Materiais a separar</string>
+    <string name="lbl_comoseparar">Como separar materiais</string>
+    <string name="lbl_social">Data da Coleta</string>
+    <string name="lbl_porque_reciclar">Por que reciclar ?</string>
+    <string name="lbl_cadastre">Cadastre-se</string>
+    <string name="lbl_sair">Sair</string>
+    <string name="lbl_share">Solicitar Coleta</string>
+    <string name="lbl_rastrear">Rastrear Coleta</string>
+    <string name="lbl_send">Fale Conosco</string>
+    <string name="lbl_pev">PEV’S (Eco pontos)</string>
+    <!--TODO: TIPO ESTABELECIMENTO -->
+    <string name="lbl_residencia">Residência</string>
+    <string name="lbl_condominio">Condomínio</string>
+    <string name="lbl_comercio">Comercio</string>
+    <string name="lbl_industria">Industria</string>
+    <string name="lbl_hospital">Hospital</string>
+    <string name="lbl_orgao">Orgão Publico</string>
+    <string name="lbl_escola">Escola</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Mapa</string>
+
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_bairro">
+        <item>Selecione seu Bairro</item>
+        <item>Altos da Glória</item>
+        <item>Altos da Serra</item>
+        <item>Alvorada</item>
+        <item>Araés[2]</item>
+        <item>Barra do Pari</item>
+        <item>Bela Marina</item>
+        <item>Bela Vista</item>
+        <item>Boa Esperança</item>
+        <item>Bosque da Saúde</item>
+        <item>Cachoeira das Garças</item>
+        <item>Campo Velho</item>
+        <item>Canjica</item>
+        <item>Carumbé</item>
+        <item>Centro Norte</item>
+        <item>Centro Político Administrativo</item>
+        <item>Centro Sul</item>
+        <item>Cidade Alta</item>
+        <item>Cidade Verde</item>
+        <item>Cohab São Gonçalo</item>
+        <item>Coophamil</item>
+        <item>Coophema</item>
+        <item>Coxipó</item>
+        <item>Da Lixeira</item>
+        <item>Despraiado</item>
+        <item>Do Areão</item>
+        <item>Do Baú</item>
+        <item>Do Poção</item>
+        <item>Do Terceiro</item>
+        <item>Dom Aquino</item>
+        <item>Dom Bosco</item>
+        <item>Dos Araés</item>
+        <item>Dos Bandeirantes</item>
+        <item>Doutor Fábio I e II</item>
+        <item>Duque de Caxias</item>
+        <item>Goiabeiras</item>
+        <item>Grande Terceiro</item>
+        <item>Jardim Aclimação</item>
+        <item>Jardim Aroeiras</item>
+        <item>Jardim Beira Rio</item>
+        <item>Jardim Brasil</item>
+        <item>Jardim Califórnia</item>
+        <item>Jardim Comodoro</item>
+        <item>Jardim Cuiabá</item>
+        <item>Jardim das Américas</item>
+        <item>Jardim das Palmeiras</item>
+        <item>Jardim dos Ipês</item>
+        <item>Jardim Eldorado</item>
+        <item>Jardim Europa</item>
+        <item>Jardim Florianópolis</item>
+        <item>Jardim Fortaleza</item>
+        <item>Jardim Gramado</item>
+        <item>Jardim Imperial</item>
+        <item>Jardim Industriário</item>
+        <item>Jardim Itália</item>
+        <item>Jardim Leblon</item>
+        <item>Jardim Mariana</item>
+        <item>jardim monte líbano</item>
+        <item>Jardim Mossoró</item>
+        <item>Jardim Passaredo</item>
+        <item>Jardim Paulista</item>
+        <item>Jardim Petrópolis</item>
+        <item>Jardim Presidente</item>
+        <item>Jardim Primavera</item>
+        <item>Jardim Santa Isabel</item>
+        <item>Jardim Shangri Lá</item>
+        <item>Jardim Tropical</item>
+        <item>Jardim Ubirajara</item>
+        <item>Jardim Umuarama I e II</item>
+        <item>Jardim União</item>
+        <item>Jardim Universitário</item>
+        <item>Jardim Vitória</item>
+        <item>Jd Itamarati</item>
+        <item>Jordão</item>
+        <item>Lagoa Azul</item>
+        <item>Morada da Serra (CPA I, II, III, IV)</item>
+        <item>Morada do Ouro</item>
+        <item>Morada dos Nobres</item>
+        <item>Nossa Senhora Aparecida</item>
+        <item>Nova Canaã I,I e III</item>
+        <item>Nova Conquista</item>
+        <item>Nova Esperança</item>
+        <item>Novo Colorado</item>
+        <item>Novo Horizonte</item>
+        <item>Novo Mato Grosso</item>
+        <item>Novo Milenio</item>
+        <item>Novo Paraíso</item>
+        <item>Novo Terceiro</item>
+        <item>Osmar Cabral</item>
+        <item>Ouro Fino</item>
+        <item>Paiaguás</item>
+        <item>Parque Atalaia</item>
+        <item>Parque Cuiabá</item>
+        <item>Parque Georgia</item>
+        <item>Parque Ohara</item>
+        <item>Parque Residencial</item>
+        <item>Parque Residencial Tropical Ville</item>
+        <item>Pascoal Ramos</item>
+        <item>Pedra 90</item>
+        <item>Pedregal</item>
+        <item>Pico do Amor</item>
+        <item>Planalto</item>
+        <item>Popular</item>
+        <item>Porto</item>
+        <item>Praeirinho</item>
+        <item>Praeiro</item>
+        <item>Primeiro de Março</item>
+        <item>Quilombo</item>
+        <item>Recanto dos Pássaros</item>
+        <item>Residencial Coxipó</item>
+        <item>Residencial Itamarati</item>
+        <item>Residencial Pádova</item>
+        <item>Residencial Santa Inês</item>
+        <item>Residencial São Carlos</item>
+        <item>Ribeirão Da Ponte</item>
+        <item>Ribeirão do Lipa</item>
+        <item>Santa Cruz</item>
+        <item>Santa Laura</item>
+        <item>Santa Marta</item>
+        <item>Santa Rosa</item>
+        <item>São Francisco</item>
+        <item>São Gonçalo</item>
+        <item>São Gonçalo Beira Rio</item>
+        <item>São João Del Rei</item>
+        <item>São José</item>
+        <item>São Mateus</item>
+        <item>São Roque</item>
+        <item>São Sebastião</item>
+        <item>Serra Dourada</item>
+        <item>Sol Nascente</item>
+        <item>Sucuri</item>
+        <item>Terra Nova</item>
+        <item>Tijucal</item>
+        <item>Três Barras</item>
+        <item>UFMT (Campus Universitário)</item>
+        <item>Verdão</item>
+        <item>Vista Alegre</item>
+    </string-array>
+</resources>

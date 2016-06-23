@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity_menuPrincipal"
+    tools:showIn="@layout/activity_menu_principal"
+    android:orientation="vertical"
+    android:background="@color/clBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnl_cabecalho">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lnl_horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="10dp">
+
+            <include layout="@layout/line_separador"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnl_topo_hor">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="87dp"
+                    android:layout_height="78dp"
+                    android:id="@+id/lbl_icone"
+                    android:weightSum="1">
+
+                    <QuickContactBadge
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/quickContactBadge2"
+                        android:src="@mipmap/ic_pessoa_cor"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.53" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lbl_descricao"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/lbl_saudacao"
+                        android:id="@+id/tv_saudacao_hor"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/lbl_nomeCidadao"
+                        android:id="@+id/tv_nome_hor"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold|italic"
+                        android:paddingLeft="30dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/lbl_cidadaoConsciente"
+                        android:id="@+id/tv_cidadaoConsciente_hor"
+                        android:textColor="#ffffff"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="visible"
+                        android:textStyle="italic"
+                        android:gravity="right"
+                        android:paddingRight="30dp"
+                        android:textSize="12dp"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/line_separador"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lnl_vertical"
+            android:visibility="visible">
+
+            <QuickContactBadge
+                android:layout_width="179dp"
+                android:layout_height="90dp"
+                android:id="@+id/quickContactBadge"
+                android:src="@mipmap/ic_pessoa_cor"
+                android:layout_gravity="center_horizontal" />
+
+            <include layout="@layout/line_separador"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/lbl_saudacao"
+                android:id="@+id/tv_saudacao"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/lbl_nomeCidadao"
+                android:id="@+id/tv_nome"
+                android:textColor="#ffffff"
+                android:textStyle="bold|italic"
+                android:paddingLeft="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/lbl_cidadaoConsciente"
+                android:id="@+id/tv_cidadaoConsciente"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:visibility="visible"
+                android:textStyle="italic"
+                android:gravity="right"
+                android:paddingRight="30dp"
+                android:textSize="12dp" />
+
+            <include layout="@layout/line_separador"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lbl_btn_menuAplicativo"
+        android:id="@+id/tv_menuPrincipal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lnl_conteudo"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lnl_controle_botoes">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_videoEducativo"
+                    android:id="@+id/btn_videoEducativo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_materiasSeparar"
+                    android:id="@+id/btn_materiasSeparar"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_comoSeparar"
+                    android:id="@+id/btn_comoSeparar"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_tempoDegradacao"
+                    android:id="@+id/btn_tempoDegradacao"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_dataColeta"
+                    android:id="@+id/btn_dataColeta"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_canaisComunicacao"
+                    android:id="@+id/btn_canaisComunicacao"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_btn_acoesSociais"
+                    android:id="@+id/btn_acoesSociais"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnl_rodape">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/lbl_publicidade"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+</LinearLayout>
