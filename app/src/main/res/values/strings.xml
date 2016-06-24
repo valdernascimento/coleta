@@ -28,7 +28,7 @@
 
     <string name="lbl_btn_videoEducativo">Vídeo Educativo</string>
     <string name="lbl_btn_materiasSeparar">Materias a Separar</string>
-    <string name="lbl_btn_comoSeparar">Como Separar Materias</string>
+    <string name="lbl_btn_comoSeparar">Como Separar</string>
     <string name="lbl_btn_tempoDegradacao">Tempo de Degradação</string>
     <string name="lbl_btn_dataColeta">Data de Coleta seu Bairro</string>
     <string name="lbl_btn_canaisComunicacao">Canais de Comunicação</string>
@@ -44,7 +44,7 @@
     <!--TODO: MENU -->
     <string name="lbl_home">Home</string>
     <string name="lbl_material_separar">Materiais a separar</string>
-    <string name="lbl_comoseparar">Como separar materiais</string>
+    <string name="lbl_comoseparar">Como separar</string>
     <string name="lbl_social">Data da Coleta</string>
     <string name="lbl_porque_reciclar">Por que reciclar ?</string>
     <string name="lbl_cadastre">Cadastre-se</string>
@@ -65,6 +65,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_activity_video_coleta">Vídeos Coleta Seletiva</string>
 
 
 </resources>

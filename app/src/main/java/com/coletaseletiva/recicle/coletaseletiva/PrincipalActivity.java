@@ -100,8 +100,6 @@ public class PrincipalActivity extends AppCompatActivity
             getSupportActionBar().setLogo(R.mipmap.social);
             getSupportActionBar().setTitle(R.string.lbl_social);
         } else if (id == R.id.nav_porque_reciclar) {
-            //getSupportActionBar().setLogo(R.mipmap.recicle);
-            //getSupportActionBar().setTitle(R.string.lbl_pev);
             Intent it_PevActivity = new Intent(this, PevActivity.class);
             startActivity(it_PevActivity);
         } else if (id == R.id.nav_cadastre) {
@@ -111,12 +109,8 @@ public class PrincipalActivity extends AppCompatActivity
             //break;
           } else  if (id == R.id.nav_sair) {
            onSairAplicativo();
-        } else if (id == R.id.nav_share) {
-            getSupportActionBar().setLogo(R.mipmap.share);
-            getSupportActionBar().setTitle(R.string.lbl_share);
-            Intent it_menuPrincipal = new Intent(this, activity_menuPrincipal.class);
-            startActivity(it_menuPrincipal);
-        }  if (id == R.id.nav_send) {
+        } else
+        if (id == R.id.nav_send) {
             getSupportActionBar().setLogo(R.mipmap.send);
             getSupportActionBar().setTitle(R.string.lbl_send);
         }
@@ -125,21 +119,24 @@ public class PrincipalActivity extends AppCompatActivity
         return true;
     }
     public void callVideo(View view){
-
-      String subs = view.toString(); //"app:id/";
-      subs = subs.substring(subs.indexOf("app:id/") + 6); //nome id + }
+      String subs = view.toString(); //"app:id/"; //Recuperando card clicado
+      subs = subs.substring(subs.indexOf("app:id/") + 6); //nome id + } //Copiando item a partir de "app:/id
       subs = subs.substring(1, subs.length() - 1); //Removendo a } do ID
-
-      subs = subs.toLowerCase();
-      Uri uri;
+      subs = subs.toLowerCase();//Convertendo para minusculos
+      String params; //Variável para setar em param
       if(subs.equals("card_view_video1")){
-         uri = Uri.parse("https://www.youtube.com/watch?v=qjTabTFnmHQ");
+          params = "android.resource://" + getPackageName() +"/"+
+                  R.raw.reciclar_simples;
       }else{
-         uri = Uri.parse("https://www.youtube.com/watch?v=zU0uGGHs2to");
+          params = "android.resource://" + getPackageName() +"/"+
+                  R.raw.eco_kids_aprenda_separar_lixo;
       }
-      uri = Uri.parse("vnd.youtube:" + uri.getQueryParameter("v"));
-      Intent itn = new Intent(Intent.ACTION_VIEW, uri);
-      startActivity(itn);
+      //create activity video
+      Intent it_video = new Intent(this, activity_video_coleta.class);
+      //Setando Parametros
+      it_video.putExtra("param", params);
+      //Inicializando Activity
+      startActivity(it_video);
    }
    public void onSairAplicativo() {
       AlertDialog.Builder adb = new AlertDialog.Builder(this);
