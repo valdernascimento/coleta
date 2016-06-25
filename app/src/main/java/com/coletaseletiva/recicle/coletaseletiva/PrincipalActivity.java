@@ -37,10 +37,26 @@ public class PrincipalActivity extends AppCompatActivity
       startActivity(it_MapsActivity);
    }
    public void startVideoEductivoHome(View view) {
-        getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivity.newInstance()).addToBackStack("menu").commit();
+        //getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivity.newInstance()).addToBackStack("menu").commit();
+       String params = "android.resource://" + getPackageName() +"/"+
+                        R.raw.movieedugp;
+       //create activity video
+       Intent it_video = new Intent(this, activity_video_coleta.class);
+       //Setando Parametros
+       it_video.putExtra("param", params);
+       //Inicializando Activity
+       startActivity(it_video);
     }
     public void startVideoEductivoKids(View view) {
-        getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivitykids.newInstance()).addToBackStack("menu").commit();
+        //getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivitykids.newInstance()).addToBackStack("menu").commit();
+        String params = "android.resource://" + getPackageName() +"/"+
+                R.raw.caranga_reciclagem;
+        //create activity video
+        Intent it_video = new Intent(this, activity_video_coleta.class);
+        //Setando Parametros
+        it_video.putExtra("param", params);
+        //Inicializando Activity
+        startActivity(it_video);
     }
    @Override
     protected void onCreate(Bundle savedInstanceState) {
