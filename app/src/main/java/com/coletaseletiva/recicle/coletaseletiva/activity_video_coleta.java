@@ -3,8 +3,10 @@ package com.coletaseletiva.recicle.coletaseletiva;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.MediaController;
 import android.widget.TextView;
@@ -21,8 +23,11 @@ public class activity_video_coleta extends AppCompatActivity {
         setContentView(R.layout.activity_video_coleta);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         //Recuperando Dados Params Enviado
-        String params = this.getIntent().getStringExtra("param");
+        String params = this.getIntent().getStringExtra("param"); //UrlPath vídeo
+        String titulo = this.getIntent().getStringExtra("title"); //Título do Vídeo
+        getSupportActionBar().setTitle(titulo);//Setando título do vídeo
         //Recuperando VideoView
         video = (VideoView) findViewById(R.id.vw_coleta);
         if(mControls == null){
@@ -41,6 +46,8 @@ public class activity_video_coleta extends AppCompatActivity {
                 video.start();//Inicializa o vídeo
             }
         });
+
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
