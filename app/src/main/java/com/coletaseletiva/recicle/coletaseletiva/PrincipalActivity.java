@@ -1,11 +1,15 @@
 package com.coletaseletiva.recicle.coletaseletiva;
 
+import android.app.Notification;
+import android.app.PendingIntent;
+import android.app.TaskStackBuilder;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -36,28 +40,6 @@ public class PrincipalActivity extends AppCompatActivity
       Intent it_MapsActivity = new Intent(this, MapsActivity.class);
       startActivity(it_MapsActivity);
    }
-   public void startVideoEductivoHome(View view) {
-        //getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivity.newInstance()).addToBackStack("menu").commit();
-       String params = "android.resource://" + getPackageName() +"/"+
-                        R.raw.movieedugp;
-       //create activity video
-       Intent it_video = new Intent(this, activity_video_coleta.class);
-       //Setando Parametros
-       it_video.putExtra("param", params);
-       //Inicializando Activity
-       startActivity(it_video);
-    }
-    public void startVideoEductivoKids(View view) {
-        //getFragmentManager().beginTransaction().replace(R.id.main_frame, VideoActivitykids.newInstance()).addToBackStack("menu").commit();
-        String params = "android.resource://" + getPackageName() +"/"+
-                R.raw.caranga_reciclagem;
-        //create activity video
-        Intent it_video = new Intent(this, activity_video_coleta.class);
-        //Setando Parametros
-        it_video.putExtra("param", params);
-        //Inicializando Activity
-        startActivity(it_video);
-    }
    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -134,26 +116,58 @@ public class PrincipalActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     public void callVideo(View view){
       String subs = view.toString(); //"app:id/"; //Recuperando card clicado
       subs = subs.substring(subs.indexOf("app:id/") + 6); //nome id + } //Copiando item a partir de "app:/id
       subs = subs.substring(1, subs.length() - 1); //Removendo a } do ID
       subs = subs.toLowerCase();//Convertendo para minusculos
-      String params; //Variável para setar em param
+      String urlPath; //Variável para setar em param
+      String titulo;
       if(subs.equals("card_view_video1")){
-          params = "android.resource://" + getPackageName() +"/"+
+          titulo = "Reciclar é simples";//titulo do action bar
+          urlPath = "android.resource://" + getPackageName() +"/"+
                   R.raw.reciclar_simples;
       }else{
-          params = "android.resource://" + getPackageName() +"/"+
+          titulo = "Aprenda separar o lixo";//titulo do action bar
+          urlPath = "android.resource://" + getPackageName() +"/"+
                   R.raw.eco_kids_aprenda_separar_lixo;
       }
-      //create activity video
-      Intent it_video = new Intent(this, activity_video_coleta.class);
-      //Setando Parametros
-      it_video.putExtra("param", params);
-      //Inicializando Activity
-      startActivity(it_video);
-   }
+      Intent it_video = new Intent(this, activity_video_coleta.class);//create activity video
+      it_video.putExtra("param", urlPath);//Setando Parametros
+      it_video.putExtra("title", titulo);//Setando titulo actionBar
+      startActivity(it_video);//Inicializando Activity
+        /*
+        PendingIntent penInt =
+                TaskStackBuilder.create(this)
+                .addNextIntentWithParentStack(it_video)
+                .getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        Notification.Builder builder = new Notification.Builder(this);
+        builder.setContentIntent(penInt);
+        */
+
+    }
+
+    public void startVideoEductivoHome(View view) {
+        String urlPath = "android.resource://" + getPackageName() +"/"+
+                R.raw.movieedugp;
+        String titulo = "Por que reciclar";//titulo do action bar
+
+        Intent it_video = new Intent(this, activity_video_coleta.class);//create activity video
+        it_video.putExtra("param", urlPath);//Setando Caminho vídeo
+        it_video.putExtra("title", titulo);//Setando titulo actionBar
+        startActivity(it_video);//Inicializando Activity
+    }
+    public void startVideoEductivoKids(View view) {
+        String urlPath = "android.resource://" + getPackageName() +"/"+
+                R.raw.caranga_reciclagem;
+        String titulo = "Reciclar é legal";//titulo do action bar
+        Intent it_video = new Intent(this, activity_video_coleta.class);//create activity video
+        it_video.putExtra("param", urlPath);//Setando Caminho vídeo
+        it_video.putExtra("title", titulo);//Setando titulo actionBar
+        startActivity(it_video);//Inicializando Activity
+    }
    public void onSairAplicativo() {
       AlertDialog.Builder adb = new AlertDialog.Builder(this);
 
