@@ -47,7 +47,7 @@ public class activity_video_coleta extends AppCompatActivity {
             }
         });
 
-        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
